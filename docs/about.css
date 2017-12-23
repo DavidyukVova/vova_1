@@ -1339,10 +1339,8 @@ div.stockTicker span {
   padding-right: 25px;
 }
 .home_page-section {
-  background: url(assets/images/faq.png);
-}
-.home_page-background {
-  background: url(assets/images/FAQ.jpg) no-repeat;
+  height: 600px;
+  background-image: url(assets/images/ABOUT.jpg);
   position: relative;
 }
 .home_page-block {
@@ -1351,21 +1349,19 @@ div.stockTicker span {
 }
 .home_page-block:after {
   content: '';
-  height: 577px;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.99) 60%, rgba(0,0,0,0.99) 100%);
+  background: linear-gradient(to right, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.96) 60%, rgba(0,0,0,0.99) 70%, rgba(0,0,0,0.99) 100%);
 }
 .home_page-block {
   padding-left: 45%;
   padding-right: 10%;
 }
 .home_page-block .text-block {
-  color: #ff0;
   width: 700px;
   z-index: 3;
   padding-top: 15px;
@@ -1374,6 +1370,7 @@ div.stockTicker span {
   text-align: justify;
   font-size: 20px;
   color: #ff0;
+  padding-top: 20px;
 }
 .home_page-block .text-block li {
   font-size: 20px;
@@ -1383,14 +1380,93 @@ div.stockTicker span {
 .home_page-block .text-block span {
   color: #ff0;
 }
-.home_page-block .text-block a {
+.home_page-block .text-block button {
+  padding: 8px 30px;
+  border: 2px solid #f00;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000;
+  background-color: #ff0;
+  cursor: pointer;
+  margin: 0 15px;
+}
+.home_page-block .text-block .text-block__btn {
+  margin: 40px 20%;
+}
+.arrow {
+  width: 80px;
+  margin: 0 auto;
+  background-color: #ff0;
+  border-radius: 50%;
+  z-index: 4;
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  font-size: 60px;
+  text-align: center;
   color: #f00;
 }
-.home_page-block .text-block .italic {
-  font-style: italic;
+.home_page-section #first_content:active {
+  transition: 3s;
+  /* bottom */
 }
-.home_page-block .text-block .paragraph {
-  text-decoration: underline;
+.bottom-block {
+  width: 100%;
+  position: absolute;
+  top: 700px;
+  left: 0;
+}
+.content__block {
+  width: 100%;
+  height: 450px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+.content__block:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.79) 60%, rgba(0,0,0,0.99) 100%);
+}
+.content__item {
+  width: 405px;
+  height: 230px;
+  z-index: 4;
+  border: 3px solid #ff0;
+  border-radius: 4%;
+  padding: 20px;
+}
+.content__item .content__img img {
+  width: 100px;
+}
+.content__item .first-img {
+  padding-top: 10px;
+}
+.content__item .second-img {
+  padding-top: 25px;
+}
+.content__item .content__img {
+  width: 110px;
+  float: left;
+}
+.content__item h2 {
+  text-align: center;
+  color: #ff0;
+}
+.content__item p {
+  width: 250px;
+  float: left;
+  color: #ff0;
 }
 .navigation__text #nav ul {
   list-style: none;
@@ -1689,6 +1765,9 @@ div.stockTicker span {
   .home_page-block .img-block img {
     max-width: 600px;
   }
+  .home_page-section {
+    height: 800px;
+  }
   .home_page-section .bottom-block {
     padding-top: 50px;
   }
@@ -1784,9 +1863,6 @@ div.stockTicker span {
   }
   .modalDialog1 .modal_content1 {
     padding-left: 20px;
-  }
-  .home_page-block:after {
-    display: none;
   }
   .footer .footer__content {
     max-width: 600px;
@@ -1942,9 +2018,6 @@ div.stockTicker span {
   .home_page-block .bottomLink {
     display: none;
   }
-  .home_page-section .home_page-background {
-    max-width: 550px;
-  }
   .footer .footer__content {
     max-width: 400px;
   }
@@ -1983,9 +2056,6 @@ div.stockTicker span {
   .home_page-block .text-block ul li {
     font-size: 18px;
   }
-  .home_page-section .home_page-background {
-    max-width: 420px;
-  }
   .footer .footer__content {
     max-width: 350px;
   }
@@ -1998,6 +2068,9 @@ div.stockTicker span {
   }
 }
 @media all and (max-width: 385px) {
+  .home_page-section {
+    height: 800px;
+  }
   .footer .footer__content {
     max-width: 320px;
   }
@@ -2011,9 +2084,6 @@ div.stockTicker span {
   .home_page-block .text-block ul li {
     font-size: 16px;
   }
-  .home_page-section .home_page-background {
-    max-width: 385px;
-  }
 }
 @media all and (max-width: 348px) {
   .footer .footer__content {
@@ -2023,7 +2093,9 @@ div.stockTicker span {
     right: 2%;
     top: 360px;
   }
-  .home_page-section .home_page-background {
-    max-width: 348px;
+}
+@media all and (max-width: 348px) {
+  .home_page-section {
+    height: 800px;
   }
 }
