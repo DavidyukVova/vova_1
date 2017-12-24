@@ -2283,3 +2283,28 @@ div.stockTicker span {
     height: 800px;
   }
 }
+#nav1 .contact ul li {
+  padding-left: 0;
+}
+@media all and (max-width: 690px) {
+  .nav-bar #nav1 ul {
+    left: 0;
+  }
+  .nav-bar #nav1 li:hover ul {
+    left: 0;
+  }
+}
+.nav-bar #nav1 ul {
+  list-style: none;
+  position: absolute;
+  top: 85px;
+  left: 25px;
+  color: #fff;
+  border: 1px solid #ff0;
+  border-radius: 3px;
+  background-color: #151515;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 1s;
+  z-index: 5;
+}

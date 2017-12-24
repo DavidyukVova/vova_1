@@ -1501,7 +1501,7 @@ div.stockTicker span {
   list-style: none;
   position: absolute;
   top: 85px;
-  left: 0;
+  left: 25px;
   color: #fff;
   border: 1px solid #ff0;
   border-radius: 3px;
@@ -1512,7 +1512,7 @@ div.stockTicker span {
   z-index: 5;
 }
 .nav-bar #nav1 li:hover ul {
-  left: 0;
+  left: 25px;
   top: 85px;
   opacity: 1;
   visibility: visible;
@@ -1531,6 +1531,9 @@ div.stockTicker span {
 }
 .nav-bar #nav1 li ul a:hover {
   border-bottom: 1px solid;
+}
+#nav1 .contact ul li {
+  padding-left: 0;
 }
 .platform-block {
   width: 100%;
@@ -1943,6 +1946,12 @@ div.stockTicker span {
   }
 }
 @media all and (max-width: 690px) {
+  .nav-bar #nav1 ul {
+    left: 0;
+  }
+  .nav-bar #nav1 li:hover ul {
+    left: 0;
+  }
   .platform-block .platform-block__middle {
     display: -ms-flexbox;
     display: flex;
