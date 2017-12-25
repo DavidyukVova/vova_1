@@ -1389,8 +1389,12 @@ div.stockTicker span {
 .home_page-block .text-block .italic {
   font-style: italic;
 }
+.home_page-block .text-block h2 {
+  color: #ff0000;
+}
 .home_page-block .text-block .paragraph {
   text-decoration: underline;
+  text-align: center;
 }
 .navigation__text #nav ul {
   list-style: none;

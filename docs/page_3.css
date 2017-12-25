@@ -2141,3 +2141,7 @@ div.stockTicker span {
   transition: all 0.3s ease 1s;
   z-index: 5;
 }
+.widget__block {
+  margin: 0 auto;
+  width: 100%;
+}
