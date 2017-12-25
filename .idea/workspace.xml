@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2618c953-93b9-4e1a-a7b1-e5e7e031f530" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/iphone.css" afterPath="$PROJECT_DIR$/docs/iphone.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -109,8 +110,8 @@
       <file leaf-file-name="iphone.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/iphone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="42">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -238,12 +239,12 @@
       <workItem from="1514011048408" duration="4138000" />
       <workItem from="1514070331179" duration="4070000" />
       <workItem from="1514134800110" duration="4903000" />
-      <workItem from="1514209427328" duration="9772000" />
+      <workItem from="1514209427328" duration="10864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25883000" />
+    <option name="totallyTimeSpent" value="26975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -653,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/iphone.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
