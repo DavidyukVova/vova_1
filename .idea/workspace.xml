@@ -110,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/docs/iphone.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -238,12 +238,12 @@
       <workItem from="1514011048408" duration="4138000" />
       <workItem from="1514070331179" duration="4070000" />
       <workItem from="1514134800110" duration="4903000" />
-      <workItem from="1514209427328" duration="11039000" />
+      <workItem from="1514209427328" duration="11881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27150000" />
+    <option name="totallyTimeSpent" value="27992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -654,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/docs/iphone.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
