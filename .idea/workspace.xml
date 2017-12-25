@@ -38,16 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="114" column="94" lean-forward="false" selection-start-line="114" selection-start-column="94" selection-end-line="114" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,18 +91,28 @@
       <file leaf-file-name="Cryptocurrencies.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Cryptocurrencies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="234" column="30" lean-forward="false" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_3.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page_3.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/page_3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="2148" column="1" lean-forward="true" selection-start-line="2148" selection-start-column="1" selection-end-line="2148" selection-end-column="1" />
+            <state relative-caret-position="337">
+              <caret line="2074" column="3" lean-forward="false" selection-start-line="2074" selection-start-column="3" selection-end-line="2074" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iphone.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/iphone.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/Cryptocurrencies.html" />
         <option value="$PROJECT_DIR$/docs/page_3.css" />
+        <option value="$PROJECT_DIR$/docs/iphone.css" />
       </list>
     </option>
   </component>
@@ -239,12 +240,12 @@
       <workItem from="1514011048408" duration="4138000" />
       <workItem from="1514070331179" duration="4070000" />
       <workItem from="1514134800110" duration="4903000" />
-      <workItem from="1514209427328" duration="7595000" />
+      <workItem from="1514209427328" duration="9604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23706000" />
+    <option name="totallyTimeSpent" value="25715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -638,16 +639,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/Cryptocurrencies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="234" column="30" lean-forward="false" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/page_3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="2148" column="1" lean-forward="true" selection-start-line="2148" selection-start-column="1" selection-end-line="2148" selection-end-column="1" />
+        <state relative-caret-position="337">
+          <caret line="2074" column="3" lean-forward="false" selection-start-line="2074" selection-start-column="3" selection-end-line="2074" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/iphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
