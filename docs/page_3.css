@@ -1919,7 +1919,7 @@ div.stockTicker span {
     padding-right: 10%;
   }
   .widget__block {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
   }
 }
