@@ -771,13 +771,16 @@ body {
 .heder-block {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: #000;
 }
 .logotipe-section {
-  width: 30%;
+  width: 310px;
 }
 .nav-bar {
-  width: 70%;
+  width: 700px;
+  padding-right: 30px;
   position: relative;
 }
 .nav-bar__first-block li {
@@ -830,7 +833,7 @@ body {
 }
 .nav-bar .nav-bar__seccond-block .btn3 {
   background-color: #ffd700;
-/* Modal */
+  /* Modal */
 }
 .modalDialog {
   position: fixed;
@@ -1338,7 +1341,6 @@ div.stockTicker span {
   padding-right: 25px;
 }
 .home_page-section {
-  height: 750px;
   background-image: url(assets/images/Cryptocurrencies.jpg);
   position: relative;
 }
@@ -1387,6 +1389,9 @@ div.stockTicker span {
   background-color: #ff0;
   cursor: pointer;
   margin: 0 15px;
+}
+.home_page-block .text-block{
+  height: 500px;
 }
 .home_page-block .text-block .text-block__btn {
   margin: 40px 20%;
