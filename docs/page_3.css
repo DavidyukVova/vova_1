@@ -1885,6 +1885,17 @@ div.stockTicker span {
     max-width: 600px;
   }
 }
+@media all and (max-width: 800px) {
+  .nav-bar__first-block ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+}
 @media all and (max-width: 735px) {
   .nav-bar__first-block ul {
     display: -ms-flexbox;
