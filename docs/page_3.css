@@ -2082,7 +2082,7 @@ div.stockTicker span {
     font-size: 18px;
   }
   .widget__block {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
   }
   .footer .footer__content {
