@@ -1927,6 +1927,9 @@ div.stockTicker span {
     top: 1000px;
     left: 0;
   }
+  body {
+    background-color: #000000;
+  }
   .platform-block__column ul {
     margin: 0;
     padding: 0;
