@@ -779,7 +779,7 @@ body {
   width: 310px;
 }
 .nav-bar {
-  width: 700px;
+  width: 900px;
   padding-right: 30px;
   position: relative;
 }
@@ -834,6 +834,20 @@ body {
 .nav-bar .nav-bar__seccond-block .btn3 {
   background-color: #ffd700;
   /* Modal */
+}
+.modal3 .modal_content1 label {
+  font-size: 16px;
+}
+.modal3 .email1 textarea {
+  background: #939393;
+  border: none;
+}
+.modal3 .controller {
+  max-width: 500px;
+  padding-top: 20px;
+}
+.modal3 .controller .checkbox {
+  font-size: 11px;
 }
 .modalDialog {
   position: fixed;

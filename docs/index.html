@@ -43,6 +43,7 @@
                     <a href="#openModal"><button class="btn1">Demo</button></a>
                     <a href="#openModalLive"><button class="btn2">Live</button></a>
                     <a href="https://sandtonlimited.com/registration/login.php?server=live" target="_blank"><button class="btn3">Deposit</button></a>
+                    <a href="#openModalWithdraw"><button class="btn3">Withdraw</button></a>
                 </div>
             </div>
             <div id="openModal" class="modalDialog">
@@ -176,6 +177,68 @@
                         <div class="btn1">
                             <button>SUBMIT</button>
                         </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="openModalWithdraw" class="modalDialog1 modal3">
+                <div>
+                    <a href="#close1" title="Close" class="close1">X</a>
+                    <div class="modal_content1">
+                        <form class="form2" action="">
+                            <h2>WITHDRAWAL</h2>
+                            <p>Please complete the form below</p>
+                            <div class="name1">
+                                <p>Name: *</p>
+                                <input type="hidden" name="project_name" value="Site Name">
+                                <input type="hidden" name="admin_email" value="vovkadavidyuk@gmail.com">
+                                <input type="hidden" name="form_subject" value="Form Subject">
+
+                                <div class="first_name1 nameBlock1">
+                                    <input name="FirstName" id="firstName2" type="text" maxlength="30" required>
+                                    <label for="firstName1">First Name</label>
+                                </div>
+                                <div class="last_name1 nameBlock1">
+                                    <input name="LastName" id="lastName2" type="text" maxlength="30" required>
+                                    <label for="lastName1">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="email1">
+                                <label for="WithdrawalAmount">Withdrawal Amount *</label>
+                                <input name="Withdrawal Amount" id="WithdrawalAmount" type="text" maxlength="75" required>
+                            </div>
+                            <div class="email1">
+                                <label for="Credit/DebitCardNumber">Credit/Debit Card Number *</label>
+                                <input name="Credit/DebitCardNumber" id="Credit/DebitCardNumber" type="text" maxlength="75" required>
+                            </div>
+                            <div class="email1">
+                                <label for="BankName">Bank Name</label>
+                                <input name="Bank Name" id="BankName" type="text" maxlength="75">
+                            </div>
+                            <div class="email1">
+                                <label for="AccountNumber">Account Number</label>
+                                <input name="Account Number" id="AccountNumber" type="text" maxlength="75">
+                            </div>
+                            <div class="email1">
+                                <label for="SwiftCode">Swift Code</label>
+                                <input name="Swift Code" id="SwiftCode" type="text" maxlength="75">
+                            </div>
+                            <div class="email1">
+                                <p>Reason for Withdrawing *</p>
+                                <textarea name="Reason for Withdrawing" cols="63" rows="3" required></textarea>
+                            </div>
+                            <div class="controller">
+                                <p>Checkbox</p>
+                                <p class="checkbox">
+                                    * Wire Transfer Information only needed if withdrawing more than your initial deposit<br>
+                                    * All withdrawals are processed same day of receipt and typically take 2-3 business days to reach your account
+                                </p>
+                                <input id="control2" type="checkbox" required>
+                                <label for="control2">I accept the Terms and conditions.</label>
+                            </div>
+                            <div class="btn1">
+                                <button>SUBMIT</button>
+                            </div>
                         </form>
                     </div>
                 </div>

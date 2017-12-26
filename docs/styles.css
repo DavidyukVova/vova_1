@@ -778,7 +778,7 @@ body {
   width: 310px;
 }
 .nav-bar {
-  width: 700px;
+  width: 900px;
   padding-right: 30px;
   position: relative;
 }
@@ -1263,6 +1263,22 @@ body {
 .modalDialog1 .line {
   display: inline-block;
 }
+/* Modal3 */
+
+.modal3 .modal_content1 label {
+  font-size: 16px;
+}
+.modal3 .email1 textarea {
+  background: #939393;
+  border: none;
+}
+.modal3 .controller {
+  max-width: 500px;
+  padding-top: 20px;
+}
+.modal3 .controller .checkbox {
+  font-size: 11px;
+}
 .navigation-block {
   width: 100%;
   background-color: #000;
@@ -1701,6 +1717,11 @@ div.stockTicker span {
     right: 3%;
   }
 }
+@media all and (max-width: 1141px) {
+  .home_page-section .bottom-block {
+    padding-top: 39px;
+  }
+}
 @media all and (max-width: 1124px) {
   .navigation__text {
     margin: 0 5%;
@@ -1812,6 +1833,11 @@ div.stockTicker span {
     margin-left: 25px;
   }
 }
+@media all and (max-width: 894px) {
+  .home_page-section .bottom-block {
+    padding-top: 129px;
+  }
+}
 @media all and (max-width: 890px) {
   .platform-block .images_container img {
     width: 250px;
@@ -1919,7 +1945,7 @@ div.stockTicker span {
     height: 1180px;
   }
   .home_page-section .bottom-block {
-    padding-top: 200px;
+    padding-top: 250px;
   }
   .bottom-block {
     width: 100%;
